@@ -14,6 +14,9 @@ import { EducationComponent } from './education/education.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import {SectionComponent} from "./section/section.component";
+import { ExperienceComponent } from './experience/experience.component';
+import { TechnologyStackComponent } from './technology-stack/technology-stack.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import {SectionComponent} from "./section/section.component";
     MenuComponent,
     IntroductionComponent,
     EducationComponent,
-    SectionComponent
+    SectionComponent,
+    ExperienceComponent,
+    TechnologyStackComponent,
+    ContactComponent
   ],
     imports: [
         BrowserModule,
