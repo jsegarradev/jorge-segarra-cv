@@ -1,5 +1,14 @@
 {
+  "targets": {
+    "jorge-segarra": {
+      "hosting": {
+        "jorge-segarra-cv": [
+          "jorge-segarra"
+        ]
+      }
+    }
+  },
   "projects": {
-    "default": "jorge-segarra-cv-6f632"
+    "default": "jorge-segarra"
   }
 }
