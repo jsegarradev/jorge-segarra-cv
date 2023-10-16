@@ -13,6 +13,7 @@ import {ButtonModule} from "primeng/button";
 import { EducationComponent } from './education/education.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
+import {SectionComponent} from "./section/section.component";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TranslocoRootModule } from './transloco-root.module';
     LayoutComponent,
     MenuComponent,
     IntroductionComponent,
-    EducationComponent
+    EducationComponent,
+    SectionComponent
   ],
     imports: [
         BrowserModule,
