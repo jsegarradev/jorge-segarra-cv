@@ -5,8 +5,7 @@ interface Language {
 }
 @Component({
   selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  templateUrl: './menu.component.html'
 })
 export class MenuComponent implements OnInit{
   cities: Language[] | undefined;

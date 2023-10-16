@@ -10,13 +10,17 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { MenuComponent } from './menu/menu.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import {ButtonModule} from "primeng/button";
+import { EducationComponent } from './education/education.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TranslocoRootModule } from './transloco-root.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
     MenuComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    EducationComponent
   ],
     imports: [
         BrowserModule,
@@ -24,7 +28,9 @@ import {ButtonModule} from "primeng/button";
         DropdownModule,
         FormsModule,
         BrowserAnimationsModule,
-        ButtonModule
+        ButtonModule,
+        HttpClientModule,
+        TranslocoRootModule
 
     ],
   providers: [],
