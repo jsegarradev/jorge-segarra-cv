@@ -63,3 +63,20 @@ body{
   from { background: var(--highlight-bg) }
   to { background: rgba(0,0,0,.7) }
 }
+
+.p-card {
+  background: var(--surface-card);
+}
+
+.p-card-body {
+  padding-top: unset;
+}
+
+.p-card-content {
+  padding-top: unset;
+  padding-bottom: unset
+}
+
+.p-card-header{
+  padding: unset
+}

@@ -40,7 +40,7 @@
   --border-radius:6px;
   --surface-ground:#20262e;
   --surface-section:#040d19;
-  --surface-card:#071426;
+  --surface-card:var(--surface-ground);
   --surface-overlay:#071426;
   --surface-border:#0b213f;
   --surface-hover:rgba(255,255,255,.03);
