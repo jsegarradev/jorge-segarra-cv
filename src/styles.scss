@@ -4,7 +4,7 @@
 @import "primeng/resources/themes/lara-dark-purple/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
-@import "primeng-custom";
+@import "primeng-globals";
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 body{
@@ -39,5 +39,21 @@ body{
   content: url("app/menu/icons/contact.svg");
 }
 
+.p-speeddial-action {
+  width: 10rem;
+  height: 3rem;
+  border-radius:unset;
+  background:unset;
+  //background: var(--surface-section);
+  color: rgb(255, 255, 255);
+}
 
+.p-speeddial-action:hover {
+  background: var(--highlight-bg);
+  color: rgb(255, 255, 255);
+}
 
+.p-speeddial-mask-visible {
+  opacity: 6;
+  transition-duration: 1s;
+}
