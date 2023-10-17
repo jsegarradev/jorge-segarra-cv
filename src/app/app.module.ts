@@ -13,12 +13,13 @@ import {ButtonModule} from "primeng/button";
 import { EducationComponent } from './sections/education/education.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
-import {SectionComponent} from "./components/section/section.component";
+import {SectionTitleComponent} from "./components/section-title/section-title.component";
 import { ExperienceComponent } from './sections/experience/experience.component';
 import { TechnologyStackComponent } from './sections/technology-stack/technology-stack.component';
 import { ContactComponent } from './sections/contact/contact.component';
 import {SpeedDialModule} from "primeng/speeddial";
 import { TypewriterComponent } from './components/typewriter/typewriter.component';
+import {CardModule} from "primeng/card";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { TypewriterComponent } from './components/typewriter/typewriter.componen
     MenuComponent,
     IntroductionComponent,
     EducationComponent,
-    SectionComponent,
+    SectionTitleComponent,
     ExperienceComponent,
     TechnologyStackComponent,
     ContactComponent,
@@ -42,7 +43,8 @@ import { TypewriterComponent } from './components/typewriter/typewriter.componen
     ButtonModule,
     HttpClientModule,
     TranslocoRootModule,
-    SpeedDialModule
+    SpeedDialModule,
+    CardModule
 
   ],
   providers: [],
