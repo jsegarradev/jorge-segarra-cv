@@ -40,7 +40,7 @@ body{
 }
 
 .p-speeddial-action {
-  width: 10rem;
+  width: 100%;
   height: 3rem;
   border-radius:unset;
   background:unset;
@@ -54,6 +54,12 @@ body{
 }
 
 .p-speeddial-mask-visible {
-  opacity: 6;
-  transition-duration: 1s;
+  opacity:unset;
+  animation: back-change 0.2s;
+  background: rgba(0,0,0,.85);
+}
+
+@keyframes back-change {
+  from { background: var(--highlight-bg) }
+  to { background: rgba(0,0,0,.7) }
 }

@@ -3,7 +3,7 @@
   *transloco="let t"
 ></app-section-title>
 <div class="grid">
-  <div class="col-3">
+  <div class="col-12 sm:col-6 md:col-4 lg:col-3">
     <p-card
       header="Advanced Card"
       subheader="Card Subheader"
@@ -14,7 +14,7 @@
         <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png"/>
       </ng-template>
       <p class="p-0 m-0">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam</p>
       <ng-template pTemplate="footer">
         <div class="inline flex justify-content-between">
           <p-button
@@ -33,5 +33,36 @@
     </p-card>
 
   </div>
+  <div class="col-12 sm:col-6 md:col-4 lg:col-3">
+    <p-card
+      header="Advanced Card"
+      subheader="Card Subheader"
+      styleClass="border-1 border-primary w-full  "
+      class="w-full"
+    >
+      <ng-template pTemplate="header">
+        <img alt="Card" src="https://primefaces.org/cdn/primeng/images/usercard.png"/>
+      </ng-template>
+      <p class="p-0 m-0">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam</p>
+      <ng-template pTemplate="footer">
+        <div class="inline flex justify-content-between">
+          <p-button
+            label="Save"
+            size="small"
+            [outlined]="true"
+            severity="help"></p-button>
+          <p-button
+            label="Cancel"
+            styleClass="p-button-secondary"
+            size="small"
+            [outlined]="true"
+            severity="help"></p-button>
+        </div>
+      </ng-template>
+    </p-card>
+
+  </div>
+
 </div>
 
