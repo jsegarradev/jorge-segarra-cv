@@ -1,0 +1,25 @@
+$typewriter-duration: 0.9s; // Total duration of the animation
+$delay-before-typing: 1.5s; // Delay before the typing animation starts
+
+.typewriter {
+  color: #fff;
+  font-family: var(--font-family);
+  overflow: hidden;
+  border-right: .15em solid var(--primary-color);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation:
+    caret-blink 1s steps(1, end) infinite,
+    typing $typewriter-duration steps(6, end) forwards;
+}
+
+@keyframes caret-blink {
+  0%, 100% { border-color: transparent }
+  50% { border-color: var(--primary-color) }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

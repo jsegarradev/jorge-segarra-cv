@@ -8,16 +8,17 @@ import {DropdownModule} from "primeng/dropdown";
 import {FormsModule} from "@angular/forms";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { MenuComponent } from './menu/menu.component';
-import { IntroductionComponent } from './introduction/introduction.component';
+import { IntroductionComponent } from './sections/introduction/introduction.component';
 import {ButtonModule} from "primeng/button";
-import { EducationComponent } from './education/education.component';
+import { EducationComponent } from './sections/education/education.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
-import {SectionComponent} from "./section/section.component";
-import { ExperienceComponent } from './experience/experience.component';
-import { TechnologyStackComponent } from './technology-stack/technology-stack.component';
-import { ContactComponent } from './contact/contact.component';
+import {SectionComponent} from "./components/section/section.component";
+import { ExperienceComponent } from './sections/experience/experience.component';
+import { TechnologyStackComponent } from './sections/technology-stack/technology-stack.component';
+import { ContactComponent } from './sections/contact/contact.component';
 import {SpeedDialModule} from "primeng/speeddial";
+import { TypewriterComponent } from './components/typewriter/typewriter.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {SpeedDialModule} from "primeng/speeddial";
     SectionComponent,
     ExperienceComponent,
     TechnologyStackComponent,
-    ContactComponent
+    ContactComponent,
+    TypewriterComponent
   ],
   imports: [
     BrowserModule,
