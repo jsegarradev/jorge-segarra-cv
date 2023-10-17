@@ -4,6 +4,7 @@ $delay-before-typing: 1.5s; // Delay before the typing animation starts
 .typewriter {
   color: #fff;
   font-family: var(--font-family);
+  color: var(--primary-color);
   overflow: hidden;
   border-right: .15em solid var(--primary-color);
   white-space: nowrap;
