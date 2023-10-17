@@ -3,6 +3,7 @@
 @import 'node_modules/primeflex/primeflex.css';
 @import "primeng/resources/themes/lara-dark-purple/theme.css";
 @import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
 @import "primeng-custom";
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
@@ -20,5 +21,23 @@ body{
   transform: translateY(0);
   opacity: 1;
 }
+
+.home-icon{
+  content: url("app/menu/icons/home.svg");
+}
+
+.education-icon{
+  content: url("app/menu/icons/education.svg");
+}
+.experience-icon{
+  content: url("app/menu/icons/experience.svg");
+}
+.stack-icon{
+  content: url("app/menu/icons/stack.svg");
+}
+.contact-icon{
+  content: url("app/menu/icons/contact.svg");
+}
+
 
 

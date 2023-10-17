@@ -189,3 +189,21 @@
   --primary-800:#6c648b;
   --primary-900:#4e4865;
 }
+
+.p-speeddial-action {
+  width: 10rem;
+  height: 3rem;
+  border-radius:unset;
+  background:unset;
+  //background: var(--surface-section);
+  color: rgb(255, 255, 255);
+}
+
+.p-speeddial-action:hover {
+  background: var(--highlight-bg);
+  color: rgb(255, 255, 255);
+}
+
+.p-speeddial-mask-visible {
+  opacity: 6;
+}

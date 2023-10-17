@@ -17,6 +17,7 @@ import {SectionComponent} from "./section/section.component";
 import { ExperienceComponent } from './experience/experience.component';
 import { TechnologyStackComponent } from './technology-stack/technology-stack.component';
 import { ContactComponent } from './contact/contact.component';
+import {SpeedDialModule} from "primeng/speeddial";
 
 @NgModule({
   declarations: [
@@ -30,17 +31,18 @@ import { ContactComponent } from './contact/contact.component';
     TechnologyStackComponent,
     ContactComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        DropdownModule,
-        FormsModule,
-        BrowserAnimationsModule,
-        ButtonModule,
-        HttpClientModule,
-        TranslocoRootModule
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    DropdownModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    ButtonModule,
+    HttpClientModule,
+    TranslocoRootModule,
+    SpeedDialModule
 
-    ],
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
